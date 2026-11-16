@@ -3,20 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Side projects by Bowen: WikiClick neural navigation, Solidity payment channels, and a BNB Chain RPC diagnostics prototype.">
-  <meta name="theme-color" content="#f7f5ef">
-  <title>Projects · Bowen</title>
-  <link rel="stylesheet" href="style.css">
-
+  <title>Computer Science - Bowen</title>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap"><a class="wordmark" href="index.html">Bowen<span class="dot">.</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="math.html">Math & notes</a><a href="cs.html" aria-current="page">Projects</a><a href="ai-safety.html">AI safety</a><a href="blog.html">Blog</a><a href="intro.html">About</a></nav></header>
-  <main id="main" class="wrap"><div class="page-intro"><p class="eyebrow">Computer science / Side projects</p><h1>Learning by building.</h1><p class="lede">Experiments in neural networks, graph search, and Web3, with code and notes along the way.</p></div>
-<section class="project section" id="wikiclick"><p class="eyebrow">01 / Neural networks & graph search</p><h2>WikiClick</h2><p class="project-subtitle">Finding paths through Wikipedia.</p><p>A Python project combining directed hyperlink graphs, BFS reference paths, semantic features, and neural distance and next-link ranking experiments. I use PyTorch and NetworkX to explore how learned navigation compares with simpler search heuristics.</p><p class="muted">Saved-graph experiments and live navigation are separate: live routes are checked against Wikipedia links, but aren't guaranteed to be globally shortest.</p><p class="tech">Python / PyTorch / NetworkX / Wikipedia API</p><a class="text-link" href="https://github.com/bowen-pixel/WikiClick">Code, experiments & results ↗</a></section>
-<section class="section" id="web3"><p class="eyebrow">02 / Web3</p><h2>Solidity & ETH payment channels</h2><p>Educational smart contracts with companion notes, tests, and local-chain demos. The project moves from storage and coin ledgers to simple and long-lived ETH payment channels, including typed signatures, escrow accounting, replay protection, and withdrawal behavior.</p><p class="muted">A learning lab with reference implementations and a self-review; the contracts have not been independently audited.</p><p class="tech">Solidity / Foundry / ethers.js / Anvil</p><a class="text-link" href="https://github.com/bowen-pixel/SmartContract">Contracts, tests & study notes ↗</a></section>
-<section class="section"><div class="section-heading"><div><p class="eyebrow">03 / Web3 tooling</p><h2>BNB support toolkit</h2></div><span class="status">Prototype</span></div><p>A read-only Python CLI for investigating BNB Chain RPC health, transaction status, and wallet balances and nonces. It produces structured JSON reports and includes offline tests, testnet examples, and a support runbook.</p><p class="muted">An ongoing learning project, with initial live checks on BSC testnet.</p><p class="tech">Python / JSON-RPC / BSC testnet</p><a class="text-link" href="https://github.com/bowen-pixel/bnb-support-toolkit">Toolkit & runbook ↗</a></section>
-<aside class="callout"><p>Also exploring the questions around advanced AI.</p><a href="ai-safety.html">AI safety reading & Trajectory Labs →</a></aside></main>
-  <footer class="wrap site-footer"><span>Bowen Ouyang · Toronto</span><div><a href="https://github.com/bowen-pixel">GitHub</a><a href="misc.html">Miscellany</a><a href="https://github.com/dykkos/dykkos.github.io">Site source</a></div></footer>
+  <h1>Computer Science</h1>
+  <p>Projects and code.</p>
+  <hr>
+  <h2 id="wikiclick">Neural networks</h2>
+  <h3>WikiClick</h3>
+  <p>Finding paths between Wikipedia articles using directed graphs, semantic features,
+  and neural distance and next-link ranking experiments. Built with Python, PyTorch,
+  and NetworkX. Live routes aren't guaranteed to be globally shortest.</p>
+  <p><a href="https://github.com/bowen-pixel/WikiClick">Code and experiments</a></p>
+  <hr>
+  <h2 id="web3">Web3</h2>
+  <h3>Solidity and ETH payment channels</h3>
+  <p>Educational smart contracts, study notes, tests, and local-chain demos.
+  Topics include typed signatures, escrow accounting, replay protection, and withdrawals.
+  Built with Solidity, Foundry, ethers.js, and Anvil.</p>
+  <p><a href="https://github.com/bowen-pixel/SmartContract">Contracts and notes</a></p>
+  <h3>BNB support toolkit</h3>
+  <p>A read-only Python prototype for RPC health checks, transaction-status triage,
+  and wallet balance and nonce checks. Includes JSON reports, tests, and BSC testnet examples.</p>
+  <p><a href="https://github.com/bowen-pixel/bnb-support-toolkit">Code and runbook</a></p>
+  <hr>
+  <h2>Other interests</h2>
+  <ul>
+    <li>Data Structures</li>
+    <li>Algorithms</li>
+  </ul>
+  <p><a href="ai-safety.html">AI safety and Trajectory Labs</a></p>
+  <p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>

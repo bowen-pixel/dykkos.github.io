@@ -1,78 +1,18 @@
 <!doctype html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Blog</title>
-
-  <!-- MathJax -->
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bowen’s study journal: notes on Erdős–Rényi graphs and Arzelà–Ascoli. Quick thoughts and questions to return to.">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>Blog · Bowen</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-
 <body>
-
-<p><a href="index.html">← Back to Home</a></p>
-<hr>
-
-<h1>Blog</h1>
-
-
-<p>
-Thoughts and notes to future me.
-</p>
-
-<hr>
-
-
-<!-- ========================= -->
-<!-- 2026-02-14 -->
-<!-- ========================= -->
-
-<h2>2026-02-14 — Erdős–Rényi Graphs</h2>
-
-<p><i>Topic: Random graphs, triangle counting</i></p>
-
-<p>
-Today I reviewed the definition of G(n,p) and how to compute the
-expected number of triangles. I initially attempted via adjacency matrix, since we have \[
-  \#\;\text{traingles} = \frac{1}{6}\cdot \text{trace}(A^3)
-  \]
-</p>
-
-<p>
-Key idea: write the number of triangles as a sum of indicator variables.
-</p>
-
-<p>
-Still confused about the covariance terms.
-</p>
-
-<hr>
-
-
-<!-- ========================= -->
-<!-- 2026-02-10 -->
-<!-- ========================= -->
-
-<h2>2026-02-07 — Arzelà–Ascoli</h2>
-
-<p><i>Topic: Compactness in C(K)</i></p>
-
-<p>
-I finally understood why equicontinuity matters.
-</p>
-
-<p>
-Mean value theorem gives uniform control.
-</p>
-
-<p>
-Need to review Banach space version.
-</p>
-
-<hr>
-
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="wordmark" href="index.html">Bowen<span class="dot">.</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="math.html">Math & notes</a><a href="cs.html">Projects</a><a href="ai-safety.html">AI safety</a><a href="blog.html" aria-current="page">Blog</a><a href="intro.html">About</a></nav></header>
+  <main id="main" class="wrap"><div class="page-intro"><p class="eyebrow">A study journal</p><h1>Thoughts to future me.</h1><p class="lede">Small observations, unfinished questions, and things worth revisiting.</p></div><article class="section blog-entry"><time datetime="2026-02-14" class="eyebrow">14 February 2026 / Random graphs</time><h2>Erdős–Rényi graphs</h2><p>Today I reviewed the definition of \(G(n,p)\) and how to compute the expected number of triangles. I initially attempted it via the adjacency matrix, since we have</p><div class="equation">\[\#\;\text{triangles} = \frac{1}{6}\operatorname{trace}(A^3).\]</div><p>Key idea: write the number of triangles as a sum of indicator variables.</p><p class="question">Still confused about the covariance terms.</p></article><article class="section blog-entry"><time datetime="2026-02-07" class="eyebrow">7 February 2026 / Compactness</time><h2>Arzelà–Ascoli</h2><p>I finally understood why equicontinuity matters.</p><p>The mean value theorem gives uniform control.</p><p class="question">Need to review the Banach space version.</p></article></main>
+  <footer class="wrap site-footer"><span>Bowen Ouyang · Toronto</span><div><a href="https://github.com/bowen-pixel">GitHub</a><a href="misc.html">Miscellany</a><a href="https://github.com/dykkos/dykkos.github.io">Site source</a></div></footer>
 </body>
-
+</html>
